@@ -15,9 +15,15 @@
             <h5 class="card-header">Dictionary</h5>
             <div class="card-body">
               <h5 class="card-title">Save the words you learned today!</h5>
-              <p class="card-text"><input id="txt" placeholder="write a word"></p>
-              <p class="card-text" id="message"></p>
+              <p class="card-text"><input id="txtAdd" placeholder="write a word"></p>
+              <p class="card-text" id="messageAdd"></p>
               <input type="submit" class="btn btn-warning" value="Add" onclick="addWord()"></input>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Check a saved word!</h5>
+                <p class="card-text"><input id="txtCheck" placeholder="write a word"></p>
+                <p class="card-text" id="messageCheck"></p>
+                <input type="submit" class="btn btn-info" value="Check" onclick="checkWord()"></input>
             </div>
         </div>
     </div>
