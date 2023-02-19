@@ -1,6 +1,6 @@
 let item = 1, array = Array();
 
-function addWord () {
+function addWord() {
     let word = document.getElementById('txtAdd').value, wordLowerCase = word.toLowerCase();
     let alreadyExistsElement = array.some(element => element.includes(wordLowerCase));
     if (alreadyExistsElement == false) {
@@ -20,7 +20,7 @@ function addWord () {
     document.getElementById('txtAdd').value = '';
 }
 
-function checkWord () {
+function checkWord() {
     let word = document.getElementById('txtCheck').value, wordLowerCase = word.toLowerCase();
     let alreadyExistsElement = array.some(element => element.includes(wordLowerCase));
     if (alreadyExistsElement == true) {
